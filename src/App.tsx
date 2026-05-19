@@ -11,9 +11,9 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         <div className="border-t border-gray-100" />
-        <TracksSection />
-        <div className="border-t border-gray-100" />
         <ProjectsSection />
+        <div className="border-t border-gray-100" />
+        <TracksSection />
       </main>
       <Footer />
     </div>

@@ -7,7 +7,7 @@ interface Props {
 
 export default function TrackCard({ track }: Props) {
   return (
-    <article className="bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300">
+    <article id={`track-${track.id}`} className="bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300">
       <EmbedPlayer track={track} />
       <div className="p-5">
         <div className="flex items-start justify-between gap-2 mb-2">

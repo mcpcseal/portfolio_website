@@ -6,7 +6,7 @@ interface Props {
 
 export default function ProjectRow({ project }: Props) {
   return (
-    <article className="group flex flex-col sm:flex-row sm:items-center gap-3 py-5 border-b border-gray-100 last:border-0">
+    <article id={`project-${project.id}`} className="group flex flex-col sm:flex-row sm:items-center gap-3 py-5 border-b border-gray-100 last:border-0">
       <div className="flex-1 min-w-0">
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
           <h3 className="text-base font-semibold text-gray-900">{project.title}</h3>
