@@ -6,11 +6,11 @@ export default function Header() {
           Junho Kim
         </span>
         <nav className="flex gap-8 text-sm text-gray-500">
-          <a href="#tracks" className="hover:text-gray-900 transition-colors">
-            Works
-          </a>
           <a href="#projects" className="hover:text-gray-900 transition-colors">
             Credits
+          </a>
+          <a href="#tracks" className="hover:text-gray-900 transition-colors">
+            Works
           </a>
         </nav>
       </div>
